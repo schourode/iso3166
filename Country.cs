@@ -136,7 +136,7 @@ namespace ISO3166
             new Country("Indonesia", "ID", "IDN", "360"),
             new Country("Iran, Islamic Republic of", "IR", "IRN", "364"),
             new Country("Iraq", "IQ", "IRQ", "368"),
-            new Country("Ireland", "IE", "IRL", "372"),
+            new Country("Ireland", "IE", "IRL", "372", Subdivision.IrelandSubdivisions),
             new Country("Isle of Man", "IM", "IMN", "833"),
             new Country("Israel", "IL", "ISR", "376"),
             new Country("Italy", "IT", "ITA", "380", Subdivision.ItalySubdivisions),
