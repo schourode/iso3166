@@ -414,7 +414,7 @@ namespace ISO3166
             new Subdivision("NL-GE", "Gelderland"),
             new Subdivision("NL-GR", "Groningen"),
             new Subdivision("NL-LI", "Limburg"),
-            new Subdivision("NL-NB", "Noord-Braban"),
+            new Subdivision("NL-NB", "Noord-Brabant"),
             new Subdivision("NL-NH", "Noord-Hollan"),
             new Subdivision("NL-OV", "Overijssel"),
             new Subdivision("NL-UT", "Utrecht"),
