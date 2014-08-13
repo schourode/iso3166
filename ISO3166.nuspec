@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>ISO3166</id>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <title>ISO 3166-1 Country list</title>
     <authors>Jørn Schou-Rode</authors>
     <licenseUrl>http://creativecommons.org/licenses/by-sa/3.0/</licenseUrl>
