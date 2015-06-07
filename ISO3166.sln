@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISO3166", "ISO3166.csproj", "{E8A7EDEB-7E49-4297-BC45-90E98E0D5329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISO3166.Tests", "tests\ISO3166.Tests\ISO3166.Tests.csproj", "{4D14E1D7-36F0-444C-9BDF-A500FDDECC9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8A7EDEB-7E49-4297-BC45-90E98E0D5329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A7EDEB-7E49-4297-BC45-90E98E0D5329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A7EDEB-7E49-4297-BC45-90E98E0D5329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A7EDEB-7E49-4297-BC45-90E98E0D5329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D14E1D7-36F0-444C-9BDF-A500FDDECC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D14E1D7-36F0-444C-9BDF-A500FDDECC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D14E1D7-36F0-444C-9BDF-A500FDDECC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D14E1D7-36F0-444C-9BDF-A500FDDECC9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

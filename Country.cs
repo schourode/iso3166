@@ -4,8 +4,12 @@
  * Data source: http://en.wikipedia.org/wiki/ISO_3166-1
  * License: http://creativecommons.org/licenses/by-sa/3.0/
  */
+
 namespace ISO3166
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Country
     {
         public string Name { get; private set; }
@@ -273,5 +277,42 @@ namespace ISO3166
             new Country("Zambia", "ZM", "ZMB", "894"),
             new Country("Zimbabwe", "ZW", "ZWE", "716"),
         };
+
+
+        static Country()
+        {
+            // fill search structures
+            foreach (var country in List)
+            {
+                Code2Dict.Add(country.TwoLetterCode, country);
+                Code3Dict.Add(country.ThreeLetterCode, country);
+            }
+        }
+
+        private static readonly IDictionary<string, Country> Code2Dict =
+            new Dictionary<string, Country>();
+
+        private static readonly IDictionary<string, Country> Code3Dict =
+            new Dictionary<string, Country>();
+
+        public static Country FindBy2Code(string twoLetterCode)
+        {
+            if (twoLetterCode == null)
+                throw new ArgumentNullException("twoLetterCode");
+            
+            Country res;
+            Code2Dict.TryGetValue(twoLetterCode.ToUpper(), out res);
+            return res;
+        }
+
+        public static Country FindBy3Code(string threeLetterCode)
+        {
+            if (threeLetterCode == null)
+                throw new ArgumentNullException("threeLetterCode");
+
+            Country res;
+            Code3Dict.TryGetValue(threeLetterCode.ToUpper(), out res);
+            return res;
+        }
     }
 }
