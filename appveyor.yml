@@ -1,0 +1,10 @@
+version: build-{build}
+skip_tags: true
+image: Visual Studio 2017
+configuration: Release
+build_script:
+- ps: |-
+    msbuild /t:Restore
+    msbuild ISO3166.sln /verbosity:minimal /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll" /p:Configuration=$Env:CONFIGURATION /p:TreatWarningsAsErrors=true
+artifacts:
+- path: '**\*.nupkg'
