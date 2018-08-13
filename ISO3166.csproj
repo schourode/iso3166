@@ -5,9 +5,9 @@
     <Title>ISO 3166-1 Country list</Title>
     <Authors>Jørn Schou-Rode</Authors>
     <Description>
-      ISO 3166-1 is part of the ISO 3166 standard published by the International Organization for Standardization (ISO), and defines codes for the names of countries, dependent territories, and special areas of geographical interest.
-      This package provides a list of countries including their official English name as well as their ISO 3166 defined two-letter, three-letter and three-digit country codes. The list is accessible for any .NET language via the static field ISO3166.Country.List.
-      Data source: Wikipedia.
+ISO 3166-1 is part of the ISO 3166 standard published by the International Organization for Standardization (ISO), and defines codes for the names of countries, dependent territories, and special areas of geographical interest.
+This package provides a list of countries including their official English name as well as their ISO 3166 defined two-letter, three-letter and three-digit country codes. The list is accessible for any .NET language via the static field ISO3166.Country.List.
+Data source: Wikipedia.
     </Description>
     <PackageLicenseUrl>http://creativecommons.org/licenses/by-sa/3.0/</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/schourode/iso3166</PackageProjectUrl>
