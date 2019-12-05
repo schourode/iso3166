@@ -1,6 +1,6 @@
 ﻿/*
  * ISO 3166-1 country codes
- * 
+ *
  * Data source: http://en.wikipedia.org/wiki/ISO_3166-1
  * License: http://creativecommons.org/licenses/by-sa/3.0/
  */
@@ -60,10 +60,10 @@ namespace ISO3166
             new Country("Bulgaria", "BG", "BGR", "100"),
             new Country("Burkina Faso", "BF", "BFA", "854"),
             new Country("Burundi", "BI", "BDI", "108"),
+            new Country("Cabo Verde", "CV", "CPV", "132"),
             new Country("Cambodia", "KH", "KHM", "116"),
             new Country("Cameroon", "CM", "CMR", "120"),
             new Country("Canada", "CA", "CAN", "124"),
-            new Country("Cabo Verde", "CV", "CPV", "132"),
             new Country("Cayman Islands", "KY", "CYM", "136"),
             new Country("Central African Republic", "CF", "CAF", "140"),
             new Country("Chad", "TD", "TCD", "148"),
@@ -82,7 +82,7 @@ namespace ISO3166
             new Country("Cuba", "CU", "CUB", "192"),
             new Country("Curaçao", "CW", "CUW", "531"),
             new Country("Cyprus", "CY", "CYP", "196"),
-            new Country("Czech Republic", "CZ", "CZE", "203"),
+            new Country("Czechia", "CZ", "CZE", "203"),
             new Country("Denmark", "DK", "DNK", "208"),
             new Country("Djibouti", "DJ", "DJI", "262"),
             new Country("Dominica", "DM", "DMA", "212"),
@@ -93,6 +93,7 @@ namespace ISO3166
             new Country("Equatorial Guinea", "GQ", "GNQ", "226"),
             new Country("Eritrea", "ER", "ERI", "232"),
             new Country("Estonia", "EE", "EST", "233"),
+            new Country("Eswatini", "SZ", "SWZ", "748"),
             new Country("Ethiopia", "ET", "ETH", "231"),
             new Country("Falkland Islands (Malvinas)", "FK", "FLK", "238"),
             new Country("Faroe Islands", "FO", "FRO", "234"),
@@ -120,7 +121,7 @@ namespace ISO3166
             new Country("Guyana", "GY", "GUY", "328"),
             new Country("Haiti", "HT", "HTI", "332"),
             new Country("Heard Island and McDonald Islands", "HM", "HMD", "334"),
-            new Country("Holy See (Vatican City State)", "VA", "VAT", "336"),
+            new Country("Holy See", "VA", "VAT", "336"),
             new Country("Honduras", "HN", "HND", "340"),
             new Country("Hong Kong", "HK", "HKG", "344"),
             new Country("Hungary", "HU", "HUN", "348"),
@@ -154,7 +155,6 @@ namespace ISO3166
             new Country("Lithuania", "LT", "LTU", "440"),
             new Country("Luxembourg", "LU", "LUX", "442"),
             new Country("Macao", "MO", "MAC", "446"),
-            new Country("Macedonia, the former Yugoslav Republic of", "MK", "MKD", "807"),
             new Country("Madagascar", "MG", "MDG", "450"),
             new Country("Malawi", "MW", "MWI", "454"),
             new Country("Malaysia", "MY", "MYS", "458"),
@@ -188,6 +188,7 @@ namespace ISO3166
             new Country("Niue", "NU", "NIU", "570"),
             new Country("Norfolk Island", "NF", "NFK", "574"),
             new Country("Northern Mariana Islands", "MP", "MNP", "580"),
+            new Country("North Macedonia", "MK", "MKD", "807"),
             new Country("Norway", "NO", "NOR", "578"),
             new Country("Oman", "OM", "OMN", "512"),
             new Country("Pakistan", "PK", "PAK", "586"),
@@ -236,7 +237,6 @@ namespace ISO3166
             new Country("Sudan", "SD", "SDN", "729"),
             new Country("Suriname", "SR", "SUR", "740"),
             new Country("Svalbard and Jan Mayen", "SJ", "SJM", "744"),
-            new Country("Swaziland", "SZ", "SWZ", "748"),
             new Country("Sweden", "SE", "SWE", "752"),
             new Country("Switzerland", "CH", "CHE", "756"),
             new Country("Syrian Arab Republic", "SY", "SYR", "760"),
@@ -257,8 +257,8 @@ namespace ISO3166
             new Country("Uganda", "UG", "UGA", "800"),
             new Country("Ukraine", "UA", "UKR", "804"),
             new Country("United Arab Emirates", "AE", "ARE", "784"),
-            new Country("United Kingdom", "GB", "GBR", "826"),
-            new Country("United States", "US", "USA", "840"),
+            new Country("United Kingdom of Great Britain and Northern Ireland", "GB", "GBR", "826"),
+            new Country("United States of America", "US", "USA", "840"),
             new Country("United States Minor Outlying Islands", "UM", "UMI", "581"),
             new Country("Uruguay", "UY", "URY", "858"),
             new Country("Uzbekistan", "UZ", "UZB", "860"),
