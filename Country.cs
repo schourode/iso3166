@@ -24,7 +24,6 @@ namespace ISO3166
         public static readonly Country[] List = new[]
         {
             new Country("Afghanistan", "AF", "AFG", "004"),
-            new Country("Åland Islands", "AX", "ALA", "248"),
             new Country("Albania", "AL", "ALB", "008"),
             new Country("Algeria", "DZ", "DZA", "012"),
             new Country("American Samoa", "AS", "ASM", "016"),
@@ -272,6 +271,7 @@ namespace ISO3166
             new Country("Yemen", "YE", "YEM", "887"),
             new Country("Zambia", "ZM", "ZMB", "894"),
             new Country("Zimbabwe", "ZW", "ZWE", "716"),
+            new Country("Åland Islands", "AX", "ALA", "248")            
         };
     }
 }
