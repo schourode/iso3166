@@ -30,8 +30,6 @@ public string NumericCode { get; private set; }
 public static readonly Country[] List = new[] {...};
 ```
 
-Data source: http://en.wikipedia.org/wiki/ISO_3166-1
-
 Last check against the official ISO 3166 as on https://www.iso.org/obp/ui/#search: 8th January 2020
 
 License: CC BY-SA 3.0
