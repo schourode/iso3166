@@ -32,4 +32,4 @@ public static readonly Country[] List = new[] {...};
 
 Last check against the official ISO 3166 as on https://www.iso.org/obp/ui/#search: 8th January 2020
 
-License: CC BY-SA 3.0
+License: MIT

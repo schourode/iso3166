@@ -2,7 +2,6 @@
  * ISO 3166-1 country codes
  *
  * Last check against the official ISO 3166 as on https://www.iso.org/obp/ui/#search: 8th January 2020.
- * License: http://creativecommons.org/licenses/by-sa/3.0/
  */
 namespace ISO3166
 {

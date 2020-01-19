@@ -9,7 +9,7 @@ ISO 3166-1 is part of the ISO 3166 standard published by the International Organ
 This package provides a list of countries including their official English name as well as their ISO 3166 defined two-letter, three-letter and three-digit country codes. The list is accessible for any .NET language via the static field ISO3166.Country.List.
 Last check against the official ISO 3166 as on https://www.iso.org/obp/ui/#search: 8th January 2020.
     </Description>
-    <PackageLicenseExpression>CC-BY-SA-3.0</PackageLicenseExpression>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/schourode/iso3166</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageTags>iso3166 country</PackageTags>
