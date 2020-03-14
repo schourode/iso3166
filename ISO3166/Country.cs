@@ -5,7 +5,7 @@
  */
 namespace ISO3166
 {
-    public class Country
+    public partial class Country
     {
         public string Name { get; private set; }
         public string TwoLetterCode { get; private set; }

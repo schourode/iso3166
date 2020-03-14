@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "IcuDump": {
+      "commandName": "Project",
+      "commandLineArgs": "$(SolutionDir)ISO3166"
+    }
+  }
+}
