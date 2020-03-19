@@ -141,6 +141,7 @@ namespace ISO3166
             new Country("Kiribati", "KI", "KIR", "296"),
             new Country("Korea, Democratic People's Republic of", "KP", "PRK", "408"),
             new Country("Korea, Republic of", "KR", "KOR", "410"),
+            new Country("Kosovo", "XS", "XKX","383")
             new Country("Kuwait", "KW", "KWT", "414"),
             new Country("Kyrgyzstan", "KG", "KGZ", "417"),
             new Country("Lao People's Democratic Republic", "LA", "LAO", "418"),
