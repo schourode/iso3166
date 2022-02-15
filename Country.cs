@@ -11,6 +11,7 @@ namespace ISO3166
         public string TwoLetterCode { get; private set; }
         public string ThreeLetterCode { get; private set; }
         public string NumericCode { get; private set; }
+        public string Emoji => string.Concat(TwoLetterCode.ToUpper().Select(x => char.ConvertFromUtf32(x + 0x1F1A5)));
 
         private Country(string name, string twoLetterCode, string threeLetterCode, string numericCode)
         {
