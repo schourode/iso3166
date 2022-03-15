@@ -15,13 +15,13 @@ PM> Install-Package ISO3166
 
 ## Usage
 
-```
+```c#
 Country[] countries = ISO3166.Country.List;
 ```
 
 ## Country Model
 
-```
+```c#
 public string Name { get; private set; }
 public string TwoLetterCode { get; private set; }
 public string ThreeLetterCode { get; private set; }
