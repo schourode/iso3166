@@ -13,6 +13,8 @@ Last check against the official ISO 3166 as on https://www.iso.org/obp/ui/#searc
     <PackageProjectUrl>https://github.com/schourode/iso3166</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageTags>iso3166 country</PackageTags>
+    <RepositoryUrl>https://github.com/schourode/iso3166.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <AssemblyDescription>Codes for the representation of names of countries.</AssemblyDescription>
     <Version>1.0.3</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -22,4 +24,10 @@ Last check against the official ISO 3166 as on https://www.iso.org/obp/ui/#searc
     <!-- EmbedUntrackedSources for deterministic build -->
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 </Project>
