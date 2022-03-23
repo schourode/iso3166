@@ -5,6 +5,7 @@ configuration: Release
 build_script:
 - ps: |-
     msbuild /t:Restore
-    msbuild ISO3166.sln /verbosity:minimal /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll" /p:Configuration=$Env:CONFIGURATION /p:TreatWarningsAsErrors=true /p:ContinuousIntegrationBuild=true
+    msbuild ISO3166.sln /verbosity:minimal /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll" /p:Configuration=$Env:CONFIGURATION /p:TreatWarningsAsErrors=true /p:ContinuousIntegrationBuild=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg
 artifacts:
 - path: '**\*.nupkg'
+- path: '**\*.snupkg'
