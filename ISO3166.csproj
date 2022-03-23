@@ -19,5 +19,7 @@ Last check against the official ISO 3166 as on https://www.iso.org/obp/ui/#searc
     <AssemblyOriginatorKeyFile>ISO3166.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
+    <!-- EmbedUntrackedSources for deterministic build -->
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
 </Project>
