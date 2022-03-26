@@ -6,5 +6,11 @@ build_script:
 - ps: |-
     msbuild /t:Restore
     msbuild ISO3166.sln /verbosity:minimal /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll" /p:Configuration=$Env:CONFIGURATION /p:TreatWarningsAsErrors=true
+deploy:
+- provider: NuGet
+  api_key:
+    secure: YOUR_ENCRYPTED_KEY
+  on:
+    branch: master
 artifacts:
 - path: '**\*.nupkg'
