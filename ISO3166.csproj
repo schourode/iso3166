@@ -19,7 +19,7 @@ See https://github.com/schourode/iso3166/blob/master/CHANGELOG.md
     <RepositoryUrl>https://github.com/schourode/iso3166.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <AssemblyDescription>Codes for the representation of names of countries.</AssemblyDescription>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <AssemblyOriginatorKeyFile>ISO3166.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
