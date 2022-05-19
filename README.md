@@ -1,7 +1,7 @@
 ISO 3166-1 Country List
 =======================
 
-[![Build status](https://ci.appveyor.com/api/projects/status/ta4hrrhat5fburmo/branch/master?svg=true)](https://ci.appveyor.com/project/andersnm/iso3166/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/4llq6n8yywh4umes/branch/master?svg=true)](https://ci.appveyor.com/project/schourode/iso3166/branch/master)
 [![NuGet Release](https://img.shields.io/nuget/v/ISO3166.svg)](https://www.nuget.org/packages/ISO3166)
 
 ## Install via NuGet
