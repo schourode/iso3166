@@ -18,6 +18,8 @@ PM> Install-Package ISO3166
 
 ```c#
 Country[] countries = ISO3166.Country.List;
+
+Dictionary<string, Country> countries = ISO3166.Country.Countries;
 ```
 
 ## Country Model
@@ -28,8 +30,20 @@ public string TwoLetterCode { get; private set; }
 public string ThreeLetterCode { get; private set; }
 public string NumericCode { get; private set; }
 
+public static readonly Dictionary<string, Country> Countries = new Dictionary<string, Country>(StringComparer.OrdinalIgnoreCase) {...};
 public static readonly Country[] List = new[] {...};
 ```
+
+## Lookup operations
+
+The key is case-insensitive.
+
+```c#
+// Country by two-letter code (ISO 3166-1 alpha-2)
+Country country = ISO3166.Country.Countries["DK"];
+Country country = ISO3166.Country.Countries["dk"];
+```
+
 
 Last check against the official ISO 3166 as on https://www.iso.org/obp/ui/#search: 8th January 2020
 
