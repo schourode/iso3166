@@ -1,7 +1,7 @@
 ﻿/*
  * ISO 3166-1 country codes
  *
- * Last check against the official ISO 3166 as on https://www.iso.org/obp/ui/#search: 8th January 2020.
+ * Last check against the official ISO 3166 as on https://www.iso.org/obp/ui/#search: 26th October 2024.
  */
 namespace ISO3166
 {
@@ -248,7 +248,7 @@ namespace ISO3166
             new Country("Tonga", "TO", "TON", "776"),
             new Country("Trinidad and Tobago", "TT", "TTO", "780"),
             new Country("Tunisia", "TN", "TUN", "788"),
-            new Country("Turkey", "TR", "TUR", "792"),
+            new Country("Türkiye", "TR", "TUR", "792"),
             new Country("Turkmenistan", "TM", "TKM", "795"),
             new Country("Turks and Caicos Islands", "TC", "TCA", "796"),
             new Country("Tuvalu", "TV", "TUV", "798"),
@@ -270,7 +270,7 @@ namespace ISO3166
             new Country("Yemen", "YE", "YEM", "887"),
             new Country("Zambia", "ZM", "ZMB", "894"),
             new Country("Zimbabwe", "ZW", "ZWE", "716"),
-            new Country("Åland Islands", "AX", "ALA", "248")            
+            new Country("Åland Islands", "AX", "ALA", "248")
         };
     }
 }

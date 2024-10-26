@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated country name from Turkey to Türkiye (TR, TUR, 792)
+
 ## [1.0.4] - 2022-05-19
 
 ### Added
