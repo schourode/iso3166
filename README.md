@@ -4,7 +4,7 @@ This is a fork of the original ISO3166 library by Jørn Schou-Rode, make to appl
 
 
 [![Build status](https://ci.appveyor.com/api/projects/status/4llq6n8yywh4umes/branch/master?svg=true)](https://ci.appveyor.com/project/schourode/iso3166/branch/master)
-[![NuGet Release](https://img.shields.io/nuget/v/ISO3166.svg)](https://www.nuget.org/packages/ISO3166)
+[![NuGet Release](https://img.shields.io/nuget/v/ISO3166.svg)](https://www.nuget.org/packages/ISO3166-updated)
 
 ## Install via NuGet
 

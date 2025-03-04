@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.0;netstandard2.0;net6.0;net8.0</TargetFrameworks>
+    <TargetFrameworks>netstandard1.0;netstandard2.0;net8.0</TargetFrameworks>
     <AssemblyTitle>ISO 3166-1 Country codes</AssemblyTitle>
     <Title>ISO 3166-1 Country list</Title>
     <Authors>Jørn Schou-Rode, updated by Justin Wright</Authors>
@@ -27,6 +27,7 @@ Last check against the official ISO 3166 as on https://www.iso.org/obp/ui/#searc
     <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
     <!-- EmbedUntrackedSources for deterministic build -->
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <RootNamespace>ISO3166</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
