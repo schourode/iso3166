@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.5] - 2025-03-3
 
 ### Added 
- - Support for .NET 6.0 and 8.0
+ - Support for .NET 8.0
  - Verified and Incorporated updates from the [ISO 3166-1](https://www.iso.org/committee/48750.html?t=3V3rukDb61p05Wd6ojyTRvE0S3Yg_fZgUjrLjHWcd9-mDmTKHOGjbX3nEJ3SqHar&view=documents#section-isodocuments-top):
    - 2024-02-29 Corrections of inconsistencies in short names upper case
      - [Bolivia](https://www.iso.org/obp/ui/#iso:code:3166:BO) short name of Bolivia (Plurinational State of)
